@@ -8,7 +8,7 @@ import episcanpy.api as epi
 import scipy
 from scipy.sparse import csr_matrix
 from scipy.stats.mstats import gmean
-from scBridge.logger import *
+from scBond.logger import *
 
 
 def imputation_met(adata, number_cell_covered=10, imputation_value='median', save=None, copy=False):
