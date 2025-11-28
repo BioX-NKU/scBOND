@@ -1,6 +1,6 @@
 import scanpy as sc
 from sklearn import metrics
-from scBridge.logger import *
+from scBond.logger import *
 
 
 def calculate_cluster_index(adata):
