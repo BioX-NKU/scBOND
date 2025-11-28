@@ -9,12 +9,12 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
-from scBridge.model_component import *
-from scBridge.model_utlis import *
-from scBridge.calculate_cluster import *
-from scBridge.draw_cluster import *
-from scBridge.data_processing import *
-from scBridge.logger import *
+from scBond.model_component import *
+from scBond.model_utlis import *
+from scBond.calculate_cluster import *
+from scBond.draw_cluster import *
+from scBond.data_processing import *
+from scBond.logger import *
 
 
 class Model():
