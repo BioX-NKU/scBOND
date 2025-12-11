@@ -29,13 +29,24 @@ author = 'BioX-NKU'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosummary',
-    'sphinx_autodoc_typehints',
+# extensions = ['sphinx.ext.autosummary',
+#     'sphinx_autodoc_typehints',
+#     'sphinx.ext.napoleon',
+#     'nbsphinx',
+#     'sphinx_rtd_theme'
+# ]
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.doctest',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
     'sphinx.ext.napoleon',
-    'nbsphinx',
-    'sphinx_rtd_theme'
+    'sphinx.ext.autosummary',
+    'sphinx_autodoc_typehints',
+    'sphinx_rtd_theme',
+    'nbsphinx'
 ]
-
 # Generate the API documentation when building
 autosummary_generate = True
 autodoc_member_order = 'bysource'
@@ -55,7 +66,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', '**.ipynb']
+exclude_patterns = ['_build', '**.ipynb_checkpoints']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -72,7 +83,7 @@ html_context = dict(
     display_github=True,      # Integrate GitHub
     github_user='BioX-NKU',   # Username
     github_repo='scBOND',     # Repo name
-    github_version='master',  # Version
+    github_version='main',  # Version
     conf_py_path='/docs/source/',    # Path in the checkout to the docs root
 )
 
@@ -80,3 +91,5 @@ html_context = dict(
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_static_path = ['_static']
+html_show_sphinx = False
