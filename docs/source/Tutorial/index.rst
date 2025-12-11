@@ -28,5 +28,5 @@ Translation from single-modal data to another modality
 After training, scBOND could use single scRNA-seq to predict single scDNAm in ``scBond.train_model.Model.predict_single_methylation``
 and use single scDNAm to predict single scRNA-seq in ``scBond.train_model.Model.predict_single_rna``.
 
-* `scBOND for single modality prediction <RNA_DNAm_variants/scBOND_for_single_model.ipynb>`_
+* `scBOND for single modality prediction <RNA_DNAm_variants/scBOND_for_single_modality.ipynb>`_
 
