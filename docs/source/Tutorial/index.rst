@@ -18,26 +18,15 @@ and model in ``scBond.train_model`` (scRNA-seq ~ scDNAm data)
 Translation based on data augmentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Based on cell-type labels, scBOND could make translation after data augmentation strategy in ``scBond.bond.Bond.augmentation``.
+Based on cell-type labels, scBOND could make translation after data augmentation strategy ``scBond.bond.Bond.augmentation``.
 
 * `scBOND_Aug using augmentation with cell-type labels <RNA_DNAm_variants/scBOND_aug_usage.ipynb>`_
 
-Translation from single_modal datasets to another modal datastes
+Translation from single-modal data to another modality
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 After training, scBOND could use single scRNA-seq to predict single scDNAm in ``scBond.train_model.Model.predict_single_methylation``
 and use single scDNAm to predict single scRNA-seq in ``scBond.train_model.Model.predict_single_rna``.
 
-* `Unpaired data translation using <RNA_DNAm_variants/scBOND_for_single_modal.ipynb>`_
-
-Examples
---------
-
-.. toctree::
-    :maxdepth: 2
-    :hidden:
-    RNA_DNAm_paired_basic/scBOND_usage
-
-    RNA_DNAm_variants/scBOND_aug_usage
-    RNA_DNAm_variants/scBOND_for_single_modal
+* `scBOND for single modality prediction <RNA_DNAm_variants/scBOND_for_single_model.ipynb>`_
 
