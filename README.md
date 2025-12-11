@@ -159,7 +159,7 @@ bond = Bond()
 
 ## Demo, document, tutorial and source code
 
-### We provide demos of basic scBOND model and two variants (scBOND_Aug and one for single modality prediction) with GSE140493 dataset in [scBOND usage](https://github.com/BioX-NKU/scBOND/blob/main/example/scBOND_usage.ipynb), [scBOND-aug usage](https://github.com/BioX-NKU/scBOND/blob/main/example/scBOND_aug_usage.ipynb) and  [scBOND for single modality prediction](https://github.com/BioX-NKU/scBOND/blob/main/example/scBOND_for_single_modal.ipynb).
+### We provide demos of basic scBOND model and two variants (scBOND_Aug and one for single modality prediction) with GSE140493 dataset in [scBOND usage](https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_usage.ipynb), [scBOND-aug usage](https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_aug_usage.ipynb) and  [scBOND for single modality prediction](https://github.com/BioX-NKU/scBOND/blob/main/examples/scBOND_for_single_modal.ipynb).
 
 ### We also provide richer tutorials and documents for scBOND in [scBOND documents](http://scbond.readthedocs.io), including more details of provided APIs for customing data preprocessing, model structure and training strategy.
 
