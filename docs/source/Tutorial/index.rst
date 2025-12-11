@@ -18,7 +18,7 @@ and model in ``scBond.train_model`` (scRNA-seq ~ scDNAm data)
 Translation based on data augmentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Based on cell-type labels, scBOND could make translation after data augmentation strategy ``scBond.bond.Bond.augmentation``.
+Based on cell-type labels, scBOND could make translation after data augmentation strategy in ``scBond.bond.Bond.augmentation``.
 
 * `scBOND_Aug using augmentation with cell-type labels <RNA_DNAm_variants/scBOND_aug_usage.ipynb>`_
 
