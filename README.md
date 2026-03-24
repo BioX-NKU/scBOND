@@ -1,4 +1,4 @@
-# scBOND: Biologically faithful bidirectional translation between single-cell transcriptomes and DNA methylomes with adaptability to paired data scarcity 
+# scBOND: High-fidelity bidirectional translation between single-cell transcriptomes and DNA methylomes with adaptability to paired data scarcity 
 
 A sophisticated framework for bidirectional cross-modality translation between scRNA-seq and scDNAm profiles with broad biological applicability. We show that **scBOND**(a) accurately translates data while preserving biologically significant differences between closely related cell types. It also recovers functional and tissue-specific signals in the human brain and reveals stage-specific and cell type-specific transcriptional-epigenetic mechanisms in the oligodendrocyte lineage. We further introduce **scBOND-Aug**, a powerful enhancement of scBOND that leverages biologically guided data augmentation, achieving remarkable performance and surpassing traditional methods in paired data-limited scenarios.
 
