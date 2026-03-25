@@ -9,4 +9,4 @@ Version 1.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-scBOND: Biologically faithful bidirectional translation between single-cell transcriptomes and DNA methylomes with adaptability to paired data scarcity
+scBOND: High-fidelity bidirectional translation between single-cell transcriptomes and DNA methylomes with adaptability to paired data scarcity
