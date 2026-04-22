@@ -962,7 +962,7 @@ class Model():
 
                     R2 = self.RNA_encoder(batch_samples)
                     R2R, R2M, mu_r, sigma_r = self.translator.test_model(R2, 'RNA')
-                    R2A = self.MET_decoder(R2M)
+                    R2M = self.MET_decoder(R2M)
 
                     R2M_predict.append(R2M.cpu())
 
@@ -988,8 +988,8 @@ class Model():
         R2M_predict = tensor2adata(R2M_predict)
         M2R_predict = tensor2adata(M2R_predict)
         
-        M2R_predict.obs = self.MET_data_obs.iloc[test_id_m, :]
-        R2M_predict.obs = self.RNA_data_obs.iloc[test_id_r, :]
+        M2R_predict.obs = self.RNA_data_obs.iloc[test_id_m, :]
+        R2M_predict.obs = self.MET_data_obs.iloc[test_id_r, :]
 
         """ draw umap if needed """
         if test_figure:
